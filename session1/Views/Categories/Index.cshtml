@@ -5,10 +5,15 @@
 <body>
     <h1>Categories</h1>
 
+    <a href="/categories/create">Create new category</a>
     <ul>
         @foreach (var item in @Model)
         {
-            <li>category : @item.Name, <a href="/categories/details/@item.Id">Details</a></li>
+            <li>category : @item.Name,
+                <a href="/categories/details/@item.Id" class="btn btn-outline-info">Details</a>
+                <a href="/categories/delete/@item.Id" class="btn btn-outline-danger">Delete</a>
+                <a href="/categories/Update/@item.Id" class="btn btn-outline-primary">Edit</a>
+            </li>
         }
     </ul>
     

@@ -169,3 +169,4 @@ C:\Users\PC\OneDrive\Desktop\backend c# asp.net\session1\session1\bin\Debug\net8
 C:\Users\PC\OneDrive\Desktop\backend c# asp.net\session1\session1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\PC\OneDrive\Desktop\backend c# asp.net\session1\session1\obj\Debug\net8.0\session1.csproj.AssemblyReference.cache
 C:\Users\PC\OneDrive\Desktop\backend c# asp.net\session1\session1\obj\Debug\net8.0\session1.csproj.Up2Date
+C:\Users\PC\OneDrive\Desktop\backend c# asp.net\session1\session1\obj\Debug\net8.0\session1.sourcelink.json

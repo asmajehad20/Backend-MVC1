@@ -1,0 +1,18 @@
+﻿@model Category
+<form method="post" action="/categories/edit">
+    <input type="hidden" asp-for="Id" />
+    <div class="mb-3">
+
+        <label for="cName" class="form-label">Category Name</label>
+        <input type="text" name="name" value="@Model.Name" class="form-control" id="cName"
+               placeholder="enter category name ...">
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+    <div class="mb-3">
+        <label for="cDescription" class="form-label">Description</label>
+        <input type="text" name="description" value="@Model.Description" class="form-control" id="cDescription"
+               placeholder="enter category name ...">
+        <span class="text-danger" asp-validation-for="Description"></span>
+    </div>
+    <button type="submit" class="btn btn-outline-primary">Update</button>
+</form>
